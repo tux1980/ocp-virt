@@ -17,9 +17,9 @@
               app: "rhel-9-aap-01"
               kubevirt.io/dynamic-credentials-support: 'true'
               vm.kubevirt.io/template: rhel9-server-small
-              vm.kubevirt.io/template.namespace: vm
+              vm.kubevirt.io/template.namespace: openshift-virtualization-os-images
               vm.kubevirt.io/template.revision: '1'
-              vm.kubevirt.io/template.version: v0.32.2
+              vm.kubevirt.io/template.version: v0.34.1
           spec:
             running: true
             dataVolumeTemplates:
